@@ -1,0 +1,43 @@
+[
+  {
+    "path": "/",
+    "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\home"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\login"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\profile"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\settings"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\editor"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "E:\\\\git\\\\nuxt-pro\\\\pages\\\\article"
+      }
+    ]
+  }
+]
